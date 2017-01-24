@@ -42,14 +42,23 @@
                                     <action selector="afSessAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iP1-U4-i3k"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-Ut-DGd">
+                                <rect key="frame" x="158" y="459" width="58" height="30"/>
+                                <state key="normal" title="Redirect"/>
+                                <connections>
+                                    <action selector="redirectAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ae4-Jt-dUX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jWK-6W-ntO" firstAttribute="top" secondItem="Vla-pJ-nur" secondAttribute="bottom" constant="40" id="1YX-aR-NgF"/>
                             <constraint firstItem="Axm-B8-R9C" firstAttribute="centerX" secondItem="Vla-pJ-nur" secondAttribute="centerX" id="ADE-qg-Xz7"/>
+                            <constraint firstItem="OUg-Ut-DGd" firstAttribute="top" secondItem="jWK-6W-ntO" secondAttribute="bottom" constant="40" id="AX0-MN-3zo"/>
                             <constraint firstItem="Vla-pJ-nur" firstAttribute="top" secondItem="Axm-B8-R9C" secondAttribute="bottom" constant="40" id="AsP-rs-2lg"/>
                             <constraint firstItem="Vla-pJ-nur" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dj3-Lt-X55"/>
                             <constraint firstItem="Vla-pJ-nur" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gYK-cu-spZ"/>
+                            <constraint firstItem="OUg-Ut-DGd" firstAttribute="centerX" secondItem="jWK-6W-ntO" secondAttribute="centerX" id="iBL-xv-Jzz"/>
                             <constraint firstItem="jWK-6W-ntO" firstAttribute="centerX" secondItem="Vla-pJ-nur" secondAttribute="centerX" id="u8Z-xJ-SPM"/>
                         </constraints>
                     </view>

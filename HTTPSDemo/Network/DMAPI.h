@@ -12,4 +12,7 @@
 
 - (void)login;
 
+@optional
+- (void)tryRedirect;
+
 @end

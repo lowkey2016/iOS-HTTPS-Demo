@@ -42,4 +42,9 @@
     [_api login];
 }
 
+- (IBAction)redirectAction:(id)sender {
+    self.api = [DMURLConnection new];
+    [_api tryRedirect];
+}
+
 @end

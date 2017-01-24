@@ -28,6 +28,13 @@
     [_connection start];
 }
 
+- (void)tryRedirect {
+    self.data = [NSMutableData dataWithCapacity:0];
+    
+    self.connection = [NSURLConnection connectionWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.weibo.com"]] delegate:self];
+    [_connection start];
+}
+
 #pragma mark - NSURLConnectionDelegate
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
